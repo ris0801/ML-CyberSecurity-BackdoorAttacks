@@ -1,10 +1,12 @@
 # ML-CyberSecurity-BackdoorAttacks
 
+## Data
+
+I have downloaded the data, stored it onto the google drive and mounted into my colab. 
+Data and models are stored in path -> data_path ="/content/gdrive/MyDrive/backdoor/data" and "/content/gdrive/MyDrive/backdoor/models"
+Store data and model at appropriate location and change the value of data_path ="/content/gdrive/MyDrive/backdoor/data" in code.
+
 ## Evaluating the Backdoored Model:
 
-The DNN architecture used to train the face recognition model is the state-of-the-art DeepID network.
+All the code for evaluation has been incorporated in google colab
 
-To evaluate the backdoored model, execute `eval.py` by running:
-
-```bash
-python3 eval.py <clean validation data directory> <poisoned validation data directory> <model directory>.
